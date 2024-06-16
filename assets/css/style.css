@@ -81,7 +81,18 @@ button {
     font-family: 'Inter-Bold';
 }
 
+@media (max-width: 375px) {
+    .card {
+        width: 100%;
+        height: auto;
+        padding: 15px;
+    }
 
+    .button {
+        width: 90%;
+        max-width: none;
+    }
+}
 
 
 
