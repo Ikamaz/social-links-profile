@@ -2,13 +2,14 @@
     font-family: 'Inter-Bold';
     src: url('../fonts/static/Inter-Bold.ttf');
 }
+
 @font-face {
     font-family: 'Inter-Regular';
     src: url('../fonts/static/Inter-Regular.ttf')format('truetype');
     font-weight: normal;
     font-style: normal;
-
 }
+
 @font-face {
     font-family: 'Inter-SemiBold';
     src: url('../fonts/static/Inter-SemiBold.ttf');
@@ -16,50 +17,68 @@
 
 
 body {
-    background-color: rgb(31,31,31);
+    background-color: rgb(20, 20, 20);
     margin: 0;
     color: white;
 }
 
-.card{
-    background-color: rgb(30,30,30);
+.card {
+    background-color: rgb(30, 30, 30);
     width: 400px;
-    height: 650px;
+    height: 600px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    border-radius: 5%;
+    border-radius: 15px;
 }
-.card-assets{
+
+.card-assets {
     margin-top: 30px;
     text-align: center;
     font-family: 'Inter-Regular';
 }
-.person-img{
+
+.person-img {
     border-radius: 50%;
-    width: 150px;
+    width: 80px;
 }
 
-.socials{
-    margin-top: 10px;
+.name {
+    font-size: 22px;
+    font-family: 'Inter-Bold';
+}
+
+.place {
+    font-size: 14px;
+    font-family: 'Inter-SemiBold';
+    color: rgb(197, 248, 42);
+}
+
+.quote {
+    font-size: 14px;
+}
+
+.socials {
+    margin-top: 30px;
     display: flex;
     flex-direction: column;
     gap: 15px;
 }
+
 button {
     text-align: center;
-    background-color: rgb(51,51,51);
+    background-color: rgb(51, 51, 51);
     color: white;
     border: none;
     cursor: pointer;
     margin: 0 auto;
     width: 280px;
     border-radius: 10px;
-    height: 50px;
+    height: 45px;
     letter-spacing: 0.2px;
-    font-family: 'Inter-SemiBold';
+    font-family: 'Inter-Bold';
 }
 
 
@@ -78,6 +97,6 @@ button {
 
 
 
-.attribution{
+.attribution {
     visibility: hidden;
 }
